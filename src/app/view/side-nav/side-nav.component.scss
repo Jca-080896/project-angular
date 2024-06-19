@@ -1,0 +1,51 @@
+/* Toolbar styles */
+.custom-toolbar {
+  background-color: #486ec0b7; /* Cambia el color de la barra a blanco */
+  color: #333; /* Cambia el color del texto a gris oscuro */
+}
+
+.custom-toolbar .mat-icon-button {
+  color: #4382d0; /* Cambia el color del icono a gris oscuro */
+}
+
+.custom-toolbar .spacer {
+  flex: 1 1 auto;
+}
+
+.custom-toolbar .custom-button {
+  color: #66c1ca; /* Cambia el color del botón a gris oscuro */
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+.custom-toolbar .custom-button:hover {
+  background-color: rgba(57, 53, 53, 0.1); /* Cambia el color de fondo al pasar el cursor a gris claro */
+}
+
+/* Sidenav styles */
+.custom-sidenav {
+  background-color: #dbe5f5; /* Cambia el color del menú lateral a blanco */
+  color: #333; /* Cambia el color del texto a gris oscuro */
+}
+
+.custom-sidenav .mat-nav-list .custom-list-item {
+  color: #333; /* Cambia el color de los elementos del menú a gris oscuro */
+  font-size: 16px;
+}
+
+.custom-sidenav .mat-nav-list .custom-list-item:hover {
+  background-color: #ccc; /* Cambia el color de fondo al pasar el cursor a gris claro */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .custom-toolbar .custom-button {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  .custom-sidenav .mat-nav-list .custom-list-item {
+    font-size: 14px;
+  }
+}

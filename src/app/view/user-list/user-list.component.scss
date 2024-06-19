@@ -1,0 +1,38 @@
+/* user-list.component.css */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+
+  font-size: 10px; /* Adjusted font size */
+}
+
+th, td {
+  text-align: left;
+  padding: 15px; /* Adjusted padding */
+  border: 3px solid #ddd; /* Added border */
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold; /* Added font weight */
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* Slightly lighter color for even rows */
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 500px) {
+  table {
+      width: 100%;
+  }
+  th, td {
+      font-size: 10px; /* Smaller font size for mobile */
+      padding: 10px; /* Smaller padding for mobile */
+  }
+}

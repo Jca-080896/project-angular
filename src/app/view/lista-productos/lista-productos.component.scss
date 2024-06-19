@@ -1,0 +1,39 @@
+.mat-form-field {
+  margin: 15px; /* Agregar un margen de 20px alrededor del formulario */
+}
+/* Estilos para el contenedor de la tabla */
+.mat-elevation-z8 {
+  margin: 20px; /* Agregar un margen de 20px alrededor de la tabla */
+  background-color: #edf3f5;
+}
+
+/* Estilos para la tabla */
+.mat-table {
+  width: calc(
+    100% - 40px
+  ); /* Hacer que la tabla ocupe el ancho disponible restando el margen */
+  border-collapse: collapse;
+}
+
+/* Estilos para las celdas del encabezado y el contenido */
+.mat-header-cell,
+.mat-cell {
+  padding: 8px;
+  text-align: left;
+}
+
+/* Estilos para las filas */
+
+.mat-row {
+  background-color: #f0f0f0;
+}
+
+/* Estilos para las filas cuando el cursor está encima */
+.mat-row:hover {
+  background-color: #d8dbeb;
+}
+
+/* Estilos para las celdas de las acciones */
+.mat-cell:last-child {
+  text-align: center;
+}
